@@ -738,7 +738,7 @@ return the result of <a>getting the notifications permission state</a>.
 method steps are:
 
 <ol>
- <li><p>Let <var>global</var> be the <a>current global object</a>.
+ <li><p>Let <var>global</var> be the <a>current principal global object</a>.
 
  <li><p>Let <var>promise</var> be <a for=/>a new promise</a> in <a>this</a>'s <a>relevant Realm</a>.
 
